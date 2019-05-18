@@ -1,4 +1,22 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+/*
+	Project: Destructible Tiles 2D
+	Developer: Gelson G. Rodrigues
+	Date: 05-10-2019
+	***************
+	* Description *
+	***************
+
+	Game Mode
+
+	************************
+	*    Improvements	   *
+	************************
+	************************
+	*    Changes   	       *
+	************************
+	Date		 Developer			Description
+	--------------------------------------------------
+*/
 
 #pragma once
 
@@ -13,5 +31,9 @@ UCLASS()
 class DESTRUCTIBLETILES2D_API ADestructibleTiles2DGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+	ADestructibleTiles2DGameModeBase();
+	virtual void BeginPlay() override;
+ 
 	
 };
